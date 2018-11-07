@@ -1,0 +1,3 @@
+// Google Map API for geocode
+
+https://maps.googleapis.com/maps/api/geocode/json?address=225%20west%20monipur%20mirpur%20dhaka&key=AIzaSyDnT6qbB3wnrdMWDlfGcBvbohvITNteuys
