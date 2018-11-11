@@ -10,9 +10,12 @@ var asyncAdd = (a, b) => {
   });
 }
 
-asyncAdd(3, '9').then((res) => {
+asyncAdd(3, 9).then((res) => {
   console.log(res);
-}, (errorMessage) => {
+  return asyncAdd(res, 33);
+}).then((res) => {
+  console.log('Result from 2nd then: ', res);
+}).catch((errorMessage) => {
   console.log(errorMessage);
 });
 
